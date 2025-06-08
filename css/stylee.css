@@ -29,13 +29,13 @@ body{
 
 @media (min-width:300px) {
   .container{
-    width:300px ;
+    width:325px ;
   }
 }
 
 @media (min-width:450px){
   .container{
-    width:400px ;
+    width:450px ;
   }
 }
 @media (min-width:590px){
@@ -67,6 +67,9 @@ body{
 
 
 /* start nav-links */
+.header{
+  padding: 10px 0px;
+}
 .header .container ul li {
   list-style: none;
   margin-left: 10px;
@@ -528,7 +531,7 @@ font-size: 18px;
 }
 }
  .portfolio .container .inner-portfolio-texts p{
-  margin-top: -60px;
+  margin-top: -110px;
   font-size: 15px;
   color: #797979;
 }
@@ -570,16 +573,16 @@ font-size: 18px;
 .about .container .about-cont-texts p:first-of-type{
     font-weight: bold;
     line-height: 2;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 
 } 
 .about .container .about-cont-texts p:last-of-type{
     font-weight: 500;
     line-height: 2;
     color: #777;
-    margin-top: 90px;
+    margin-top: 50px;
 }
-.about .container .about-cont-texts p:first-of-type::before{
+/* .about .container .about-cont-texts p:first-of-type::before{
   content:" ";
   width: 50%;
   height: 2px;
@@ -589,8 +592,12 @@ font-size: 18px;
   left: 0px;
   position: absolute;
   
+} */
+hr{
+  width: 50%;
+  display: inline-block;
+  border-color: var(--main-color);
 }
-
 
 @media screen and (max-width: 992px) {
     .about .container .about-cont{
@@ -602,11 +609,12 @@ font-size: 18px;
   margin: auto;
   
   }
-  .about .container .about-cont-texts p:last-of-type{
+}
+  /* .about .container .about-cont-texts p:last-of-type{
       margin-top: 110px;
-  }
+  } */
 
-  .about .container .about-cont-texts p:first-of-type::before{
+  /* .about .container .about-cont-texts p:first-of-type::before{
   content:" ";
   width: 50%;
   height: 2px;
@@ -617,8 +625,8 @@ font-size: 18px;
   position: absolute;
   
   }
-}
-@media screen and (max-width: 590px){
+} */
+/* @media screen and (max-width: 590px){
   .about .container .about-cont-texts p:first-of-type::before{
   content:" ";
   width: 50%;
@@ -630,7 +638,7 @@ font-size: 18px;
   position: absolute;
   
   }
-}
+} */
 @media screen and (max-width: 460px){
   .about .container .inner-about-texts h2{
       font-size: 50px;
@@ -638,9 +646,9 @@ font-size: 18px;
   .about .container .inner-about-texts p{
     margin-top: -64px;
   }
-  .about .container .about-cont-texts p:first-of-type::before{
+  /* .about .container .about-cont-texts p:first-of-type::before{
     margin-top: 300px;
-  }
+  } */
 }
 
 
